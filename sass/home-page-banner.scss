@@ -1,0 +1,153 @@
+/**
+**
+****FEATURED BANNER***
+**
+**/
+
+/* Detica 1.6 */
+/* Featured content slider */
+
+#featured {
+  width: 720px;
+  position: relative;
+  float: left;
+  display: inline;
+  height: 280px;
+  background: #000;
+  float: left;
+  border: 1px solid #999;
+
+  ul.ui-tabs-nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 610px;  
+    margin: 10px;
+    margin-left: 28px;  
+    li {
+      padding: 0;
+      float: left;
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px;      
+      background-color: #fff;
+      margin-right: 5px;
+      @include opacity(0.9);
+      &:hover{
+        background-color:red;
+      }
+      a{
+        color:#333333;
+        font-size: 13px;
+        font-weight: bold;
+      }
+    }
+  }
+  li.ui-tabs-nav-item a {
+    display: block;
+    font-size: 0.9em;
+    line-height: 2.5em;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .ui-tabs-panel .info {
+    position: absolute;
+    top: 55px;
+    left: 25px;
+    padding: 0;
+    height: 160px;
+    overflow: hidden;
+    width: auto;
+    background-color: #000000;
+    @include opacity(0.7);
+  }
+  .ui-tabs-hide {
+    display: none;
+  }  
+  .info {
+    width: auto;
+    a:hover {
+      h2, p {
+        color: #fff;
+        text-shadow: 0 1px 0 #000;
+      }
+    }
+    h2 {
+      overflow: hidden;
+      color: #fff;
+      background: none repeat scroll 0 0 transparent;
+      font-size: 30px;
+      margin: 0;
+      padding: 0;
+      text-shadow: 0 1px 0 #000;
+      line-height: 34px;
+    }
+    p {
+      color: #fff;
+      background-color: transparent;
+      font-size: 16px;
+      text-shadow: 0 1px 0 #000;
+    }
+    a {
+      text-decoration: none;
+      display: block;
+      width: auto;
+      height: 110px;
+      padding: 20px 20px 30px;
+      p.more:after {
+        content: " >>";
+      }
+    }
+  }
+}
+
+
+.ui-tabs-hide {
+  display: none;
+  display: none;
+}
+
+/* Detica 1.7 */
+
+.featureNav {
+  width: 220px!important;
+  float: right;
+  margin-bottom: 0;
+  &.link_panel li {
+    background: none repeat scroll 0 0 transparent;
+    border-left: none;
+    float: left;
+    font-weight: 700;
+    height: 88px;
+    list-style: none outside none;
+    margin-bottom: 5px;
+    margin-left: 0;
+    padding-left: 0;
+    border: 1px solid #cccccc;
+    background-image: url(../refresh-images/homepage-CTA-buttons.png);  
+    a {
+      color:#006a8d;
+      display: block;
+      height: 65px;
+      overflow: hidden;
+      padding-left: 1em;
+      padding-right: 2.8em;
+      font-size: 1.1em;
+      padding-top: 25px;
+      &:hover {              
+        text-decoration: none;
+        color: $almostblack;
+
+      }
+    }
+    a img {
+      vertical-align: middle;
+      margin-bottom: 4px;
+    }
+  }
+}

@@ -1,0 +1,314 @@
+.icaew-wrap#LayoutPanel{
+	.content{
+		#pageTitle{
+			h1{
+				color:$darkerblack;
+				font-size: 16px;
+				background:none;
+				border-bottom: 1px solid #e1e1e1;
+			}
+		}
+		.left-wrap{
+			width: 750px;
+			.core{
+				width: 490px;
+				float: right;
+				div{
+					width: 480px;
+					float: left;
+					p{
+						color:$darkerblack;
+						&.intro{
+							font-weight: bold;
+						}
+					}
+					a{
+						color:red;
+					}
+					ul{
+						li{
+							a{
+								color:#006a8d;
+							}
+						}
+					}
+					h2{
+						font-weight: bold;
+						font-size: 16px;
+						border-bottom: 1px solid #e1e1e1;
+						padding-bottom: 7px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+#mainpanel_0_Sn_up{
+	width: 230px;
+	float: left;
+	div{
+		width: 230px;
+	}
+}
+
+
+.sidebar{
+	float: right;
+	width: 210px!important;
+	div{
+		float: right;
+		width: 210px;
+	}
+}
+
+/* Left side, sub navigation */
+
+.sub-navigation {
+  float: left;
+  width: 230px;
+  border: 1px solid #333333; 
+  overflow: hidden;
+  li {
+    border-top: 1px solid #333333;
+    clear: both;
+    &.cta-footer{
+    	display: none;
+    }
+    a {
+      padding: 5px 10px 5px 10px;
+      display: block;
+      color: #fff;
+      text-shadow: none;
+      text-decoration: none;
+      font-size: 1em;
+      line-height: 28px;
+      font-weight: 600;
+      &:hover {
+      }
+      &.active {
+        background: #222222 url(../images/structure/active.png) 0 0 repeat-x;
+        cursor: pointer !important;
+        &:hover {
+          cursor: pointer !important;
+        }
+      }
+ 	  }
+	    ul li {
+	      background-color: #666666;
+	      background-image: url(../refresh-images/white-arrow-right.png);
+	      background-repeat: no-repeat;
+	      background-position: left;
+	      background-position: 4% center;
+	      a {
+	        font-weight: 400;
+	        padding: 5px 10px 5px 25px;
+	        color: #fff;
+	        &:hover, &.active {
+	          background-color: #666666;
+	          background-image: url(../refresh-images/white-arrow-down.png);
+	      	  background-repeat: no-repeat;
+	      	  background-position: left;
+	      	  background-position: 4% center;
+	        }
+	      }
+	      ul {
+	      	li{
+	      		background-color: #cccccc;
+	      		background-image: url(../refresh-images/black-arrow-right.png);
+ 				background-repeat: no-repeat;
+	      	  	background-position: left;
+	      	  	background-position: 12% center;	
+	      	  	&:hover, &.active {  
+	      	  		a{    	
+	      	  			border:2px solid #006a8d;
+	      				background-color: #fff;
+	      				background-image: none;
+	      				padding: 5px 10px 5px 38px;	
+	      			}
+	      	  	}
+	      		a{
+	      			color: $darkerblack;
+	      			padding: 5px 10px 5px 40px;
+	      			border:2px solid #cccccc;
+	      			&.active{
+	      				border:2px solid #006a8d;
+	      				background-color: #fff;
+	      				background-image: none;
+	      				padding: 5px 10px 5px 38px;
+	      			}
+	      		}
+	      	}
+	      }
+	   }      
+    
+  }
+}
+
+
+.ui-accordion-content{
+	height: auto!important;
+}
+.ui-accordion-header{
+	background-color: #333333!important;	
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	padding:7px 10px 4px 10px;
+	color: #fff;
+	margin-bottom: 5px;
+	background-image: url(../refresh-images/thin-white-arrow-down.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/**Accordian Tabs - need to remove unused styles from here */
+
+.module.tabs, .modules.a-z {
+  float: left;
+  border: none;
+}
+
+.module {
+  &.tabs ul.tabs-nav li.ui-tabs-selected {
+    background: url(../images/structure/button48.gif) 0 -400px repeat-x silver;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    a:hover, input:hover {
+      background: url(../images/structure/button48.gif) 0 -400px repeat-x silver;
+      color: #000;
+      text-shadow: 0 1px 0 #fff;
+    }
+  }
+  &.a-z ul.tabs-nav li.ui-tabs-selected {
+    a:hover, input:hover {
+      background: url(../images/structure/button48.gif) 0 -400px repeat-x silver;
+      color: #000;
+      text-shadow: 0 1px 0 #fff;
+    }
+  }
+  &.tabs ul.tabs-nav li {
+    &.ui-state-active {
+      background: none #E8E8E8;
+      &:hover, a:hover, input:hover {
+        background: none #E8E8E8;
+      }
+    }
+    a, input {
+      float: left;
+      text-decoration: none;
+      font-weight: bold;
+      color: #222;
+      font-size: 15px;
+      text-shadow: 0 1px 0 #fff;
+      line-height: 35px;
+      height: 35px;
+      padding: 0 15px;
+      border-left: 1px solid #eaeaea;
+      border-right: 1px solid #bababa;
+    }
+  }
+  &.a-z ul.tabs-nav li {
+    a, input {
+      float: left;
+      text-decoration: none;
+      font-weight: bold;
+      color: #222;
+      font-size: 15px;
+      text-shadow: 0 1px 0 #fff;
+      line-height: 35px;
+      height: 35px;
+      padding: 0 15px;
+      border-left: 1px solid #eaeaea;
+      border-right: 1px solid #bababa;
+    }
+  }
+  &.tabs ul.tabs-nav li a.current, &.a-z ul.tabs-nav li a.current {
+    background: url(../images/components/module-sprite.png) 0 0 repeat-x;
+  }
+  &.tabs .pane-wrap {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    overflow: hidden;
+  }
+}
+
+.tabs .pane {
+  float: left;
+}
+
+.module.tabs li {
+  list-style: none;
+}
+
+.tabs ul.pane li, .mini-list li {
+  border-bottom: 1px solid #ccc;
+  float: left;
+  list-style: none;
+  margin: 0;
+  /*	width: 100%; */
+  background: #e8e8e8;
+}
+
+.tabs ul.pane li {
+  &.no-related {
+    padding: 8px 6px;
+    width: 368px;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 6px 8px 15px;
+    display: block;
+    border-bottom: 1px solid #eaeaea;
+    background: url(../images/components/icon-arrow.png) 3px 6px no-repeat;
+  }
+}
+
+
+.topic-desc-tabs {
+  clear: both;
+  ul li {
+    border: 1px solid #ccc;
+    background: #e8e8e8;
+    border-top: none;
+    &:first-child {
+      border-top: 1px solid #ccc;
+    }
+    p {
+      margin: 0;
+      padding: 4px 0 0 10px;
+    }
+    a {
+      line-height: 1.4em;
+      background: url("http://www.icaew.com/images/components/icon-arrow.png") no-repeat 10px center;
+      padding: 6px 5px 6px 25px;
+      display: block;
+      _width: 94%;
+      float: none;
+      text-shadow: 0 1px 0 #fff;
+      color: #333;
+    }
+  }
+  li a:hover {
+    background: white url("http://www.icaew.com/images/components/icon-arrow.png") no-repeat 10px center;
+  }
+}
+
+
+
+.desc-tabs-comment ul li.cta-footer {
+  width: 704px;
+  border-left: 1px solid #4a4d4a;
+  border-right: 1px solid #4a4d4a;
+  a {
+    background-image: none;
+  }
+}

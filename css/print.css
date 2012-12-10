@@ -1,0 +1,146 @@
+/* NOT FOR PRINT */
+/* line 17, ../sass/print.scss */
+.icaew-wrap .banner-wrap,
+.icaew-wrap .header-column,
+.icaew-wrap .navigation,
+.icaew-wrap .search.module,
+.icaew-wrap .promo-box,
+.icaew-wrap .event-promo,
+.icaew-wrap .home-ad,
+.icaew-wrap .sidebar,
+.icaew-wrap .footer ul,
+.icaew-wrap #Sn_up,
+.icaew-wrap .rating-wrap,
+.icaew-wrap .commentForm,
+.icaew-wrap .sharethis,
+.icaew-wrap .tabs,
+.icaew-wrap .noPrint {
+  display: none !important; }
+
+/* line 21, ../sass/print.scss */
+img {
+  zoom: 83% \0/!important; }
+
+/* IE8 Only*/
+/* line 22, ../sass/print.scss */
+* + html img {
+  zoom: 83% !important; }
+
+/* IE7 Only*/
+/* STRUCTURE */
+/* Combined classes avoided to prevent crashing in Firefox */
+/*.icaew-wrap, .icaew-wrap .header, .icaew-wrap .text, .icaew-wrap .section */
+/* line 26, ../sass/print.scss */
+div {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: auto !important;
+  float: none !important; }
+
+/* TYPOGRAPHY */
+/* line 34, ../sass/print.scss */
+body {
+  background: white !important;
+  font-size: 12pt !important;
+  font-size: 10pt \0/!important;
+  line-height: 16pt;
+  width: 100% !important; }
+
+/* line 35, ../sass/print.scss */
+body * {
+  color: black !important;
+  float: none; }
+
+/* line 36, ../sass/print.scss */
+* + html body {
+  font-size: 10pt !important; }
+
+/* IE7 Only*/
+/* line 37, ../sass/print.scss */
+h1 {
+  width: 100% !important;
+  padding: 0.2em 0 0.5em 0!important;
+  margin: 0 !important;
+  font: 32pt/40pt Helvetica, Arial, sans-serif;
+  font-size: 18pt \0/!important;
+  line-height: 22pt \0/!important;
+  position: relative !important; }
+
+/* line 38, ../sass/print.scss */
+h2, h3 {
+  margin: 0 !important;
+  padding: 0.5em 0 0.2em !important; }
+
+/* line 39, ../sass/print.scss */
+.text ul li {
+  list-style-position: outside !important;
+  list-style-type: disc !important;
+  padding-left: 10px!important;
+  margin-left: 35px!important; }
+
+/* line 40, ../sass/print.scss */
+.text ol li {
+  padding-left: 10px!important;
+  margin-left: 35px!important; }
+
+/* line 41, ../sass/print.scss */
+.text a {
+  border-bottom: 1px dotted #999 !important; }
+
+/* HEADER */
+/* line 44, ../sass/print.scss */
+.header .logo {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  float: none; }
+
+/* line 45, ../sass/print.scss */
+.header .logo img {
+  display: block;
+  margin-top: 0.5em; }
+
+/* line 46, ../sass/print.scss */
+.header {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #000;
+  margin-bottom: 1em;
+  height: 87% !important; }
+
+/* line 47, ../sass/print.scss */
+* + html .header .logo img {
+  margin-top: 0.5em;
+  height: 100% !important;
+  width: 100% !important; }
+
+/* IE7 Only*/
+/* line 48, ../sass/print.scss */
+* + html .header {
+  height: 87% !important; }
+
+/* IE7 Only*/
+/* FOOTER */
+/* line 51, ../sass/print.scss */
+#content {
+  margin-bottom: 0.5em !important; }
+
+/* line 52, ../sass/print.scss */
+.icaew-wrap .footer {
+  display: block !important;
+  border-top: 1px solid black;
+  padding-top: 6px;
+  margin-top: 20px; }
+
+/* line 53, ../sass/print.scss */
+.icaew-wrap .footer h3, .icaew-wrap .footer p {
+  margin-left: 0; }
+
+/* SITEMAP */
+/* line 56, ../sass/print.scss */
+#site-map ul, #site-map li {
+  list-style-type: none !important; }
+
+/* ACCORDIAN BOXES OPEN */
+/* line 59, ../sass/print.scss */
+.faqs dt, .faqs dd, .pod dt, .pod dd {
+  display: block!important; }

@@ -1,0 +1,93 @@
+/**
+**
+****FOOTER***
+**
+**/
+
+/* Detica 1.14 */
+
+.footer {
+  clear: both;
+  width: 100%!important;
+  height: 100px;
+  color: #fff;
+  margin-bottom: 0;
+  text-shadow: 0 1px 0 #720000;
+  @include linear-gradient(top,#171717, #252525);
+  position: relative;
+  border-top: 5px solid #c30000;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  h3 {
+    font-size: 17px;
+    font-weight: normal;
+    color: #fff;
+    width: 960px;
+    margin: 0 auto;
+    line-height: 22px;
+    margin-bottom: 10px;
+    clear: both;
+    width: 960px;
+    margin-top: 28px;
+  }
+  p {
+    margin: 0 0 0 15px;
+    font-size: 11px;
+    line-height: 14px;
+    width: 960px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 5px;
+  }
+  ul {
+    margin: 0 auto;
+    width: 960px;
+    li {
+      float: left;
+      margin: 0 0 0 10px;
+      &:first-child{
+        margin-left:0;
+        a{
+          padding-left: 0;
+        }
+      }
+      a {
+        padding: 4px 5px;
+        font-size: 1em;
+        text-shadow: 0 1px 0 #720000;
+      }
+    }
+  }
+  a {
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.cookie{
+  padding-top: 5px;
+  font-style: italic;
+  a{
+    text-decoration: underline;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

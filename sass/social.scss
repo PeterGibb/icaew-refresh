@@ -1,0 +1,33 @@
+/**
+**
+****SOCIAL ICONS***
+**
+**/
+
+
+/* Detica 1.2 */
+#bannerEnd .sharethis {width:220px;height:90px;margin:0;border:0;background-color:#fff;}
+#bannerEnd #shareTitle {width:220px; height:20px;padding:15px 0 0;border:0;font-size:1.2em;text-align: center;overflow: hidden;}
+#bannerEnd .sharethis .social {width:230px;height:35px;margin-top: 14px;padding: 0;}
+#bannerEnd .sharethis .social a {margin: 0 0 0 12px !important;height: 32px; width: 32px; display: block;float: left;}
+
+		.sharethis .social 
+		{
+		padding: 8px 8px 2px;
+        width: 89px;
+	    float: left;
+	    background: transparent;
+		margin: 0;
+		}
+.st_twitter_custom, .twitter_banner {background:url(../newCSS/images/structure/sharethis.png) 0 -35px no-repeat transparent;}
+.st_twitter_custom:hover, .twitter_banner:hover {background:url(../newCSS/images/structure/sharethis.png) 0 0;cursor:pointer;}
+.st_linkedin_custom, .linkedin_banner {background:url(../newCSS/images/structure/sharethis.png) -32px -35px no-repeat transparent;}
+.st_linkedin_custom:hover, .linkedin_banner:hover {background:url(../newCSS/images/structure/sharethis.png) -32px 0;cursor:pointer;}
+.st_facebook_custom, .facebook_banner {background:url(../newCSS/images/structure/sharethis.png) -64px -35px no-repeat transparent;}
+.st_facebook_custom:hover, .facebook_banner:hover {background:url(../newCSS/images/structure/sharethis.png) -64px 0;cursor:pointer;}
+.st_email_custom, .email_banner {background:url(../newCSS/images/structure/sharethis.png) -96px 0 no-repeat transparent;}
+.st_email_custom:hover, .email_banner:hover {cursor:pointer;}
+.st_rss_custom {background:url(../newCSS/images/structure/sharethis.png) -128px -35px no-repeat transparent;}
+.st_rss_custom:hover {background:url(../newCSS/images/structure/sharethis.png) -128px 0;cursor:pointer;}
+.st_youtube_custom {background:url(../newCSS/images/structure/sharethis.png) -160px -35px no-repeat transparent;}
+.st_youtube_custom:hover {background:url(../newCSS/images/structure/sharethis.png) -160px 0;cursor:pointer;}

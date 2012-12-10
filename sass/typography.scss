@@ -1,0 +1,43 @@
+/**
+**
+****TYPOGRAPHY***
+**
+**/
+
+a {
+color: $alink;
+text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}	
+}
+
+h1 {
+font: bold 1.85em/1.35 $rootfontfamily;
+background: url(../images/structure/heading-underline.gif) bottom left no-repeat;
+margin:0 6px 18px;
+padding:10px 9px;
+width:930px;
+float:left;
+}
+h2 {
+font: bold 1.35em/1.2 $rootfontfamily; 
+margin: 15px 0 12px 0;
+padding-bottom: 10px;
+clear: both;
+}
+h3 {
+font: bold 1.16em/1.2em $rootfontfamily;
+margin: 12px 0 10px 0;
+color: $greylight;
+}
+
+h4, h5, h6 {
+font: bold 13px/20px $rootfontfamily;
+margin: 10px 0;
+}
+
+p {
+font: 1em/1.55em $rootfontfamily;
+margin: 0 0 10px 0;
+}

@@ -1,0 +1,125 @@
+/**
+**
+****STRUCTURE***
+**
+**/
+
+body {
+	font:13px/20px $rootfontfamily; 
+}
+
+.left-wrap h1 {
+position:absolute;
+top:0;
+left:0;
+float:none;
+}
+.core .section h2{
+    margin-top:0;
+}
+
+.text ul, 
+.text ol, 
+.faqs ul, 
+.faqs ol, 
+.pod ul,
+.pod ol {
+margin-bottom: 10px;
+}
+
+.text ul.extraIndent {padding-left:15px;}
+
+.text .pane-wrap ul{
+    margin-bottom:0;    
+}
+
+.text ul li, 
+.faqs ul li, 
+.pod ul li {
+	background:url(../refresh-images/square-bullet.png) no-repeat 0 6px transparent;
+	list-style:none outside none;
+	padding-left:20px;
+	margin-left: 0;
+}
+
+/* ORDERED LISTS */
+.icaew-wrap .content .list-numbers>li, .text ol > li, .faqs ol > li, .pod ol > li {list-style: decimal outside none !important;background-image:none;margin-left:25px;padding-left:0;}
+.icaew-wrap .content .list-numerals>li {list-style: lower-roman outside none !important;background-image:none;margin-left:25px;padding-left:0;}
+.icaew-wrap .content .list-letters>li {list-style: lower-alpha outside none !important;background-image:none;margin-left:25px;padding-left:0;}
+
+blockquote {
+margin-left: 20px;
+padding-left: 10px;
+border-left: 2px solid #ae0404;
+}
+
+input, textarea {
+font:13px/20px $rootfontfamily;  
+}
+
+.content em {
+	font-style:normal;
+	font-weight:bold;
+}
+
+/* TABLE STRUCTURE */
+table th, table tr {text-align: left;padding-right: 12px;}
+
+
+/*structure */
+.icaew-wrap {
+width: 100%;
+padding: 0;
+background:url("../refresh-images/site-bg.png") repeat-x scroll center top white;
+padding-top: 5px;
+	 div {
+		width: 960px;	
+		margin:  0 auto;
+	}
+}
+
+.content
+{
+    clear:both;
+    background:#fff;    
+ 	hr{
+    	clear:both;
+    	visibility:hidden;    
+    	margin:0;
+    	border:0;
+    	padding:0;
+    }
+}
+.left-wrap{
+    width:730px;
+    clear:both;
+    float:left;
+    position:relative;
+}
+
+.colThird {
+  min-height: 100px;
+  width: 300px;
+  float: left;
+  margin: 0 13px 0 0;
+  padding: 0;
+  &.noBorder {
+    width: 295px;
+    border: 0;
+  }
+  &.first {
+    margin-left: 0;
+  }
+  &.last {
+    margin-right: 0;
+  }
+
+}
+
+.alpha {
+  margin-left: 0 !important;
+}
+
+.omega {
+  margin-right: 0 !important;
+}

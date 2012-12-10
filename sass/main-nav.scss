@@ -1,0 +1,143 @@
+  /**
+**
+****MAIN NAVIGATION***
+**
+**/
+
+/* Detica 1.4 */
+/***************************************	
+*              NAVIGATION              *	
+***************************************/
+
+.navigation {
+  width: 100%!important;
+  z-index: 10;
+  float: left;
+  height: 60px;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 30px!important;
+  ul {
+      height: 32px;
+      top: -999em;
+      width: 960px;
+      height: auto !important;
+      margin: 0 auto;
+      line-height: 1.2;
+      height: 60px;
+      li {
+      	float: left;
+      	position: relative;
+      	display: inline;
+        width: 130px;
+        min-width: 130px;
+      	border: none;
+      	background: #fff;
+      	border-right: 1px solid #e1e1e1;
+      	vertical-align: bottom;
+  		  margin: 0;
+    	  padding: 0;
+    	  padding-bottom: 2px;
+ 		    list-style: none;
+    	  float: left;
+    	  position: relative;
+      	&:first-child{
+      		
+      	}
+      	&:hover{
+      		border:1px solid #999999;
+      		@include box-shadow(-2px 6px 5px 3px #CCCCCC);
+      		border-bottom: none;
+      		ul {
+      			li{
+      				box-shadow: none!important;    				
+      				&:hover{
+  						border: none;
+      				}
+      			}
+      		}
+    	}
+	    &:hover ul, &.sfHover ul {
+	      left: -1px;
+	      top: 2.45em;
+	      z-index: 99;
+	    }
+	    &:hover li ul, &.sfHover li ul {
+	      top: -999em;
+	    }    	
+	    &.current{
+	      background-color: #eeeeee;
+	    }
+      	a{
+      		font-size: 1em;
+	    	line-height: 1.2em;
+	    	height: auto !important;
+	    	vertical-align: middle;
+	    	float: none;
+	    	display: block;
+	    	text-shadow: none;
+	    	color:#555555;
+	    	min-height: 38px;
+	    	vertical-align: bottom;
+	    	display: block;
+	    	position: relative;
+	    	font-weight: bold;    	  
+	    	padding: 10px;
+      	}
+		/*The dropdown menu */
+		ul {
+			position: absolute;
+			top: -999em;
+			width: 270px;
+			margin-top: 28px;
+			border: 1px solid #999999;
+			border-top: none;
+			/* left offset of submenus need to match (see below) */
+			li {
+			  width: auto;
+			  border: none;
+			  height: auto;
+			  width: 270px;
+			  border: none;
+			   &:hover {
+			  	visibility: inherit;
+			  	/* fixes IE7 'sticky bug' */
+				}	
+				a{
+					font-weight: normal;
+					min-height: auto;
+					min-width: auto;
+				    padding: 8px 20px !important;	    	
+					&:hover, &:focus{
+						font-weight:bold;
+						text-decoration: none;
+					}
+				}		
+			}
+		}      	
+    }
+  }    
+    
+  fieldset.search {
+    float: left;
+    margin-left: 91px;
+    input[type="text"] {
+      width: 165px;
+      height: 23px;
+      line-height: 24px !important;
+      padding: 5px;
+      vertical-align: middle;
+      border: 1px solid #999999;
+      position: absolute;
+      background-image: url(../refresh-images/magnify.png);
+      background-position: 97% 50%;
+      background-repeat: no-repeat;
+      margin-top: 13px;
+      margin-right: -33px;
+      padding-right: 35px;
+    }
+    input#searchButton{
+      display: none;
+    }
+  }
+}
